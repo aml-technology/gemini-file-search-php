@@ -250,7 +250,7 @@ class GenAi
     private function execRequest(string $method, string $url, array $headers = [], $body = null, bool $jsonEncode = true, bool $needHeaders = false): array
     {
         $headers = $this->normalizeHeaders($headers);
-        $headers['Authorization'] = 'Bearer ' . $this->requireKey();
+        $headers['x-goog-api-key'] = $this->requireKey();
 
         $options = [
             'headers' => $headers,
