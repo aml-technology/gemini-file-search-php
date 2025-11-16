@@ -1,0 +1,28 @@
+{
+  "name": "aml-tech/gemini-file-search",
+  "description": "Gemini File Search REST client for PHP (Google Generative Language API)",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "gemini",
+    "google-ai",
+    "generative-language",
+    "file-search",
+    "guzzle",
+    "client",
+    "php"
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0 || ^8.1 || ^8.2 || ^8.3",
+    "guzzlehttp/guzzle": "^7.0 || ^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AmlTech\\GeminiFileSearch\\": "src/"
+    }
+  },
+  "support": {
+    "issues": "https://packagist.org/packages/aml-tech/gemini-file-search",
+    "source": "https://github.com/aml-tech/gemini-file-search-php"
+  }
+}
